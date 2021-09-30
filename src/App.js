@@ -3,6 +3,8 @@ import React, {useState} from 'react'
 import Todo from './components/Todo.jsx'
 import Form from './components/Form.js'
 import FilterButton from './components/FilterButton'
+import Figure from './components/Figure'
+
 
 function addTask(name) {
   const newTask = {
